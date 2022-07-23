@@ -7,6 +7,9 @@
 --[[
     Options and Actions
 --]]
+local trigger =
+
+
 
 newoption {
     trigger     = "outdir",
@@ -161,4 +164,3 @@ group ""
         excludes{
             "source/**/errcom.def", --bugfix for premake5
             "source/**/errcore.def"
-        }
